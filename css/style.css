@@ -1,0 +1,68 @@
+@import url('reset.css');
+
+body {
+    background-image: linear-gradient(to top, rgba(45, 15, 15, 0.53) 20%, #fbd4f0 50%, #15060699 80%);
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.box {
+    margin-top: 20px;
+    font-size: 0;
+}
+
+.child {
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.child_card {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.description {
+    text-align: justify;
+    overflow: hidden;
+    height: 150px;
+    margin: 10px;
+}
+
+
+h1 {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 300;
+    background: rgba(29, 1, 1, 0.805);
+    color: white;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+p {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+p+p {
+    margin-top: 10px;
+}
